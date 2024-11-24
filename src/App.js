@@ -9,7 +9,7 @@ import particlesOptions from "./assest/json/particles.json";
 import { initParticlesEngine } from "@tsparticles/react";
 import Particles from "./component/Particles";
 
-const classifierUrl = `${window.location.protocol}//${window.location.host}/classifiers/model.json`;
+const classifierUrl = `${window.location.origin}/DrawPredict/classifiers/model.json`;
 
 const loadModel = async () => {
   try {
