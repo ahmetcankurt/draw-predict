@@ -9,9 +9,10 @@ import particlesOptions from "./assest/json/particles.json";
 import { initParticlesEngine } from "@tsparticles/react";
 import Particles from "./component/Particles";
 
-const classifierUrl = window.location.hostname === "localhost" 
-  ? `${window.location.protocol}//${window.location.host}/classifiers/model.json`
-  : "https://ahmetcankurt.github.io/draw-predict/classifiers/model.json";
+const classifierUrl =
+  window.location.hostname === "localhost"
+    ? `${window.location.protocol}//${window.location.host}/classifiers/model.json`
+    : "https://ahmetcankurt.github.io/draw-predict/classifiers/model.json";
 
 const loadModel = async () => {
   try {
@@ -21,7 +22,6 @@ const loadModel = async () => {
     console.error("Error loading model:", error);
   }
 };
-
 
 const App = () => {
   const [strokes, setStrokes] = useState([]);
@@ -156,6 +156,7 @@ const App = () => {
               : Array(10).fill(0)
           }
         />
+        <div style={{textAlign:"center"}}>@2025 powered by Ahmet Cankurt</div>
       </div>
     </div>
   );
