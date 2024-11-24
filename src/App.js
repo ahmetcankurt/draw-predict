@@ -5,7 +5,7 @@ import PredictionChart from "./component/PredictionChart"; // Yeni bileşeni imp
 import { BsArrowCounterclockwise } from "react-icons/bs";
 import CustomTooltip from "./component/Tooltip";
 import { loadFull } from "tsparticles";
-import particlesOptions from "./particles.json";
+import particlesOptions from "./assest/json/particles.json";
 import { initParticlesEngine } from "@tsparticles/react";
 import Particles from "./component/Particles";
 
