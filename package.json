@@ -1,7 +1,8 @@
 {
-  "name": "yapay-zeka",
+  "name": "draw-predict",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ahmetcankurt.github.io/draw-predict/",
   "dependencies": {
     "@tensorflow/tfjs": "^4.20.0",
     "@tensorflow/tfjs-backend-cpu": "^4.20.0",
