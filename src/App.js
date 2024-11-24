@@ -11,7 +11,7 @@ import Particles from "./component/Particles";
 
 const classifierUrl = window.location.hostname === "localhost" 
   ? `${window.location.protocol}//${window.location.host}/classifiers/model.json`
-  : "https://ahmetcankurt.github.io/DrawPredict/classifiers/model.json";
+  : "https://ahmetcankurt.github.io/draw-predict/classifiers/model.json";
 
 const loadModel = async () => {
   try {
