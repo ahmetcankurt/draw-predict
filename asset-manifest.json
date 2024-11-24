@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DrawPredict/static/css/main.b36a5023.css",
+    "main.js": "/DrawPredict/static/js/main.3c048151.js",
+    "static/js/453.a0797cd1.chunk.js": "/DrawPredict/static/js/453.a0797cd1.chunk.js",
+    "index.html": "/DrawPredict/index.html",
+    "main.b36a5023.css.map": "/DrawPredict/static/css/main.b36a5023.css.map",
+    "main.3c048151.js.map": "/DrawPredict/static/js/main.3c048151.js.map",
+    "453.a0797cd1.chunk.js.map": "/DrawPredict/static/js/453.a0797cd1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b36a5023.css",
+    "static/js/main.3c048151.js"
+  ]
+}
