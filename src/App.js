@@ -9,10 +9,9 @@ import particlesOptions from "./assest/json/particles.json";
 import { initParticlesEngine } from "@tsparticles/react";
 import Particles from "./component/Particles";
 
-const classifierUrl =
-  process.env.NODE_ENV === "production"
-    ? `${window.location.origin}/classifiers/model.json` // Prodüksiyon ortamı
-    : "http://localhost:5000/classifiers/model.json"; // Yerel geliştirme ortamı
+const classifierUrl = window.location.hostname === "localhost" 
+  ? `${window.location.protocol}//${window.location.host}/classifiers/model.json`
+  : "https://ahmetcankurt.github.io/DrawPredict/classifiers/model.json";
 
 const loadModel = async () => {
   try {
@@ -22,6 +21,7 @@ const loadModel = async () => {
     console.error("Error loading model:", error);
   }
 };
+
 
 const App = () => {
   const [strokes, setStrokes] = useState([]);
