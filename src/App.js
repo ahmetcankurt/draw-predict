@@ -9,7 +9,10 @@ import particlesOptions from "./assest/json/particles.json";
 import { initParticlesEngine } from "@tsparticles/react";
 import Particles from "./component/Particles";
 
-const classifierUrl = `${window.location.origin}/DrawPredict/classifiers/model.json`;
+const classifierUrl =
+  process.env.NODE_ENV === "production"
+    ? `${window.location.origin}/classifiers/model.json` // Prodüksiyon ortamı
+    : "http://localhost:5000/classifiers/model.json"; // Yerel geliştirme ortamı
 
 const loadModel = async () => {
   try {
