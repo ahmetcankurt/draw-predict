@@ -1,47 +1,46 @@
 {
-    "background": {
-      "color": "#ecf3feff"
+  "background": {
+    "color": "#ecf3feff"
+  },
+  "particles": {
+    "color": {
+      "value": "#0000"
     },
-    "particles": {
-      "color": {
-        "value": "#0000"
+    "links": {
+      "color": "#0000",
+      "distance": 150,
+      "enable": true,
+      "opacity": 0.5,
+      "width": 1
+    },
+    "collisions": {
+      "enable": true
+    },
+    "move": {
+      "direction": "none",
+      "enable": true,
+      "outModes": {
+        "default": "bounce"
       },
-      "links": {
-        "color": "#0000",
-        "distance": 150,
-        "enable": true,
-        "opacity": 0.5,
-        "width": 1
-      },
-      "collisions": {
+      "random": false,
+      "speed": 6,
+      "straight": false
+    },
+    "number": {
+      "density": {
         "enable": true
       },
-      "move": {
-        "direction": "none",
-        "enable": true,
-        "outModes": {
-          "default": "bounce"
-        },
-        "random": false,
-        "speed": 6,
-        "straight": false
-      },
-      "number": {
-        "density": {
-          "enable": true
-        },
-        "value": 80
-      },
-      "opacity": {
-        "value": 0.5
-      },
-      "shape": {
-        "type": "circle"
-      },
-      "size": {
-        "random": true,
-        "value": 5
-      }
+      "value": 80
+    },
+    "opacity": {
+      "value": 0.5
+    },
+    "shape": {
+      "type": "circle"
+    },
+    "size": {
+      "random": true,
+      "value": 5
     }
   }
-  
+}
